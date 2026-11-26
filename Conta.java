@@ -9,9 +9,6 @@ public class Conta {
 
     public void depositar(BigDecimal saldo){
         this.saldo=this.saldo.add(saldo);
-    }
-
-    public void sacar(BigDecimal saldo){
-        this.saldo=this.saldo.subtract(saldo);
+    }    
     }
 }
